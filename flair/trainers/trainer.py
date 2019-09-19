@@ -490,6 +490,7 @@ class ModelTrainer:
             "dev_score_history": dev_score_history,
             "train_loss_history": train_loss_history,
             "dev_loss_history": dev_loss_history,
+            "optimizer_state_dict": optimizer.state_dict()
         }
 
     def final_test(
